@@ -3,8 +3,6 @@
     "runtime": "org.kde.Platform",
     "runtime-version": "5.12",
     "sdk": "org.kde.Sdk",
-    "rename-desktop-file": "toggldesktop.desktop",
-    "rename-appdata-file": "toggldesktop.appdata.xml",
     "rename-icon": "toggldesktop",
     "command": "TogglDesktop.sh",
     "finish-args": [
