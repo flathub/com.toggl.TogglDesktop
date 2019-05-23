@@ -21,7 +21,7 @@
             "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=Release",
-                "-DTOGGL_VERSION=7.4.410",
+                "-DTOGGL_VERSION=7.4.412",
                 "-DTOGGL_VERSION_RELEASE_DATE=2019-04-24",
                 "-DTOGGL_PRODUCTION_BUILD=ON",
                 "-DTOGGL_ALLOW_UPDATE_CHECK=ON"
