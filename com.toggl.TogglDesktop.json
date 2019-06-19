@@ -21,8 +21,8 @@
             "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=Release",
-                "-DTOGGL_VERSION=7.4.436",
-                "-DTOGGL_VERSION_RELEASE_DATE=2019-06-18",
+                "-DTOGGL_VERSION=7.4.437",
+                "-DTOGGL_VERSION_RELEASE_DATE=2019-06-19",
                 "-DTOGGL_PRODUCTION_BUILD=ON",
                 "-DTOGGL_ALLOW_UPDATE_CHECK=ON"
             ],
@@ -30,7 +30,7 @@
                 {
                     "type": "git",
                     "url": "http://github.com/toggl/toggldesktop",
-                    "tag": "v7.4.436"
+                    "tag": "v7.4.437"
                 }
             ]
         }
