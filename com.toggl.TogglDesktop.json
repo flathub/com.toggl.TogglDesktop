@@ -40,7 +40,8 @@
                 {
                     "type": "git",
                     "url": "http://github.com/toggl/toggldesktop",
-                    "tag": "v7.4.474"
+                    "_tag": "v7.4.474",
+                    "commit": "3270c8c6c4cdc4f221654c4c7c52906e2c5c759a"
                 }
             ]
         }
