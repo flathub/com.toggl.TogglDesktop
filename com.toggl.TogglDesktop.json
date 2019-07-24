@@ -17,6 +17,16 @@
     ],
     "modules": [
         {
+            "name": "libXmu",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "git://anongit.freedesktop.org/git/xorg/lib/libXmu",
+                    "tag": "libXmu-1.1.3"
+                }
+            ]
+        },
+        {
             "name": "TogglDesktop",
             "buildsystem": "cmake-ninja",
             "config-opts": [
