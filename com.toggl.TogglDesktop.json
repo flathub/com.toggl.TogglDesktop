@@ -39,7 +39,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "http://github.com/toggl/toggldesktop",
+                    "url": "http://github.com/toggl-open-source/toggldesktop",
                     "tag": "v7.5.226"
                 }
             ]
