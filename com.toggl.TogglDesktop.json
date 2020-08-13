@@ -1,7 +1,7 @@
 {
     "id": "com.toggl.TogglDesktop",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.12",
+    "runtime-version": "5.14",
     "sdk": "org.kde.Sdk",
     "rename-icon": "toggldesktop",
     "command": "TogglDesktop.sh",
@@ -31,7 +31,7 @@
             "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=Release",
-                "-DTOGGL_VERSION=7.5.226",
+                "-DTOGGL_VERSION=7.5.247",
                 "-DTOGGL_VERSION_RELEASE_DATE=2020-07-21",
                 "-DTOGGL_PRODUCTION_BUILD=ON",
                 "-DTOGGL_ALLOW_UPDATE_CHECK=ON"
@@ -40,7 +40,7 @@
                 {
                     "type": "git",
                     "url": "http://github.com/toggl-open-source/toggldesktop",
-                    "tag": "v7.5.226"
+                    "tag": "v7.5.247"
                 }
             ]
         }
