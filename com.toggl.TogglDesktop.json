@@ -45,7 +45,7 @@
                 {
                     "type": "git",
                     "url": "http://github.com/toggl-open-source/toggldesktop",
-                    "tag": "v7.5.260"
+                    "tag": "v7.5.279"
                 }
             ]
         }
