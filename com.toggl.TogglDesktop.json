@@ -27,7 +27,8 @@
         "--own-name=org.kde.StatusNotifierItem-6-1",
         "--own-name=org.kde.StatusNotifierItem-7-1",
         "--own-name=org.kde.StatusNotifierItem-8-1",
-        "--own-name=org.kde.StatusNotifierItem-9-1"
+        "--own-name=org.kde.StatusNotifierItem-9-1",
+        "--system-talk-name=org.freedesktop.login1"
     ],
     "modules": [
         {
