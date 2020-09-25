@@ -49,7 +49,7 @@
                 "-DTOGGL_VERSION=7.5.279",
                 "-DTOGGL_VERSION_RELEASE_DATE=2020-09-22",
                 "-DTOGGL_PRODUCTION_BUILD=ON",
-                "-DTOGGL_ALLOW_UPDATE_CHECK=ON"
+                "-DTOGGL_ALLOW_UPDATE_CHECK=OFF"
             ],
             "sources": [
                 {
