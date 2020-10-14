@@ -46,8 +46,8 @@
             "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=Release",
-                "-DTOGGL_VERSION=7.5.312",
-                "-DTOGGL_VERSION_RELEASE_DATE=2020-10-12",
+                "-DTOGGL_VERSION=7.5.324",
+                "-DTOGGL_VERSION_RELEASE_DATE=2020-10-14",
                 "-DTOGGL_PRODUCTION_BUILD=ON",
                 "-DTOGGL_ALLOW_UPDATE_CHECK=OFF"
             ],
@@ -55,7 +55,7 @@
                 {
                     "type": "git",
                     "url": "http://github.com/toggl-open-source/toggldesktop",
-                    "tag": "v7.5.312"
+                    "tag": "v7.5.324"
                 }
             ]
         }
