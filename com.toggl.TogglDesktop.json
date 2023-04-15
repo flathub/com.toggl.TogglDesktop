@@ -46,7 +46,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/toggl-open-source/toggldesktop",
-                    "tag": "v7.5.324"
+                    "tag": "v7.5.324",
+                    "commit": "43e9272320e7d9cd147420237854846876073d14"
                 },
                 {
                     "type": "patch",
