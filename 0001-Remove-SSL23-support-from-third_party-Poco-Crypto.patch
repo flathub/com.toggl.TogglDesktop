@@ -1,0 +1,34 @@
+From caccc7181611cc9451841ed1317f90aee82ae3ea Mon Sep 17 00:00:00 2001
+From: Newbyte <newbie13xd@gmail.com>
+Date: Sat, 15 Apr 2023 13:04:30 +0200
+Subject: [PATCH] Remove SSL23 support from third_party/Poco/Crypto
+
+Backport of https://github.com/pocoproject/poco/commit/46ef044d7be6cf94ea6557abc81bbedba796184e
+---
+ third_party/poco/Crypto/src/RSACipherImpl.cpp | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/third_party/poco/Crypto/src/RSACipherImpl.cpp b/third_party/poco/Crypto/src/RSACipherImpl.cpp
+index 5c2e493ed..5c61789e3 100755
+--- a/third_party/poco/Crypto/src/RSACipherImpl.cpp
++++ b/third_party/poco/Crypto/src/RSACipherImpl.cpp
+@@ -50,8 +50,6 @@ namespace
+ 			return RSA_PKCS1_PADDING;
+ 		case RSA_PADDING_PKCS1_OAEP:
+ 			return RSA_PKCS1_OAEP_PADDING;
+-		case RSA_PADDING_SSLV23:
+-			return RSA_SSLV23_PADDING;
+ 		case RSA_PADDING_NONE:
+ 			return RSA_NO_PADDING;
+ 		default:
+@@ -116,7 +114,6 @@ namespace
+ 		switch (_paddingMode)
+ 		{
+ 		case RSA_PADDING_PKCS1:
+-		case RSA_PADDING_SSLV23:
+ 			size -= 11;
+ 			break;
+ 		case RSA_PADDING_PKCS1_OAEP:
+-- 
+2.39.2
+
