@@ -47,6 +47,10 @@
                     "type": "git",
                     "url": "http://github.com/toggl-open-source/toggldesktop",
                     "tag": "v7.5.324"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-Remove-SSL23-support-from-third_party-Poco-Crypto.patch"
                 }
             ]
         }
