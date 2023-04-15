@@ -1,7 +1,7 @@
 {
     "id": "com.toggl.TogglDesktop",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-21.08",
+    "runtime-version": "5.15-22.08",
     "sdk": "org.kde.Sdk",
     "rename-icon": "toggldesktop",
     "command": "TogglDesktop.sh",
