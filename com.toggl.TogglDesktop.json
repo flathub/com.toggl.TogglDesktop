@@ -16,7 +16,6 @@
         "--talk-name=org.freedesktop.Notifications",
         "--talk-name=com.canonical.indicator.application",
         "--talk-name=org.ayatana.indicator.application",
-        "--talk-name=org.freedesktop.portal.Fcitx",
         "--talk-name=org.freedesktop.ScreenSaver",
         "--talk-name=org.gnome.Mutter.IdleMonitor",
         "--system-talk-name=org.freedesktop.login1"
