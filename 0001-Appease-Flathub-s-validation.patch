@@ -1,0 +1,29 @@
+From 0e6881c6659eab8c2c78772e7f070b87d2ce39f5 Mon Sep 17 00:00:00 2001
+From: Stefan Hansson <newbyte@postmarketos.org>
+Date: Wed, 13 Mar 2024 22:11:54 +0100
+Subject: [PATCH] Appease Flathub's validation
+
+Hope this OARS classification is reasonable.
+---
+ .../TogglDesktop/dist/com.toggl.TogglDesktop.appdata.xml.in  | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/src/ui/linux/TogglDesktop/dist/com.toggl.TogglDesktop.appdata.xml.in b/src/ui/linux/TogglDesktop/dist/com.toggl.TogglDesktop.appdata.xml.in
+index 856adb1b4..38c4e8753 100644
+--- a/src/ui/linux/TogglDesktop/dist/com.toggl.TogglDesktop.appdata.xml.in
++++ b/src/ui/linux/TogglDesktop/dist/com.toggl.TogglDesktop.appdata.xml.in
+@@ -3,7 +3,10 @@
+     <id type="desktop">com.toggl.TogglDesktop.desktop</id>
+     <project_license>BSD-3-Clause</project_license>
+     <metadata_license>CC0-1.0</metadata_license>
+-    <content_rating>none</content_rating>
++    <content_rating type="oars-1.1">
++        <content_attribute id="social-info">intense</content_attribute>
++    </content_rating>
++    <launchable type="desktop-id">com.toggl.TogglDesktop.desktop</launchable>
+     <name>Toggl Track</name>
+     <summary>Simple and Intuitive Time Tracking Software</summary>
+     <description>
+-- 
+2.44.0
+
